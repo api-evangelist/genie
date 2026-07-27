@@ -1,0 +1,36 @@
+generated: '2026-07-19'
+method: searched
+source: https://github.com/GenieFramework/Genie.jl/releases
+component: Genie.jl
+scheme: semver
+current_version: v6.0.4
+notes: >-
+  Genie is distributed as independently versioned Julia packages; this changelog
+  tracks the flagship Genie.jl web framework releases from GitHub Releases.
+entries:
+- version: v6.0.4
+  date: '2026-06-22'
+  type: patch
+- version: v6.0.3
+  date: '2026-06-19'
+  type: patch
+- version: v6.0.2
+  date: '2026-06-19'
+  type: patch
+- version: v6.0.1
+  date: '2026-06-18'
+  type: patch
+- version: v6.0.0
+  date: '2026-06-11'
+  type: major
+  breaking: true
+  highlights: Genie.jl 6.0 major release.
+- version: v5.35.14
+  date: '2026-04-20'
+  type: patch
+- version: v5.35.13
+  date: '2026-04-20'
+  type: patch
+- version: v5.35.12
+  date: '2026-03-28'
+  type: patch

@@ -1,0 +1,14 @@
+{
+  "repo": "genie",
+  "feeds": [
+    {
+      "source": "https://learn.genieframework.com/framework/",
+      "feed_url": "https://learn.genieframework.com/framework/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-07-25T15:00:33Z"
+}

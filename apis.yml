@@ -1,22 +1,90 @@
 aid: genie
 name: Genie
-description: Genie is a company surfaced as a portfolio company of speedinvest and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Genie is an open source, full-stack web framework for the Julia programming
+  language, developed by the Barcelona-based company Genie (backed by
+  Speedinvest) to let data scientists and R&D engineers turn Julia models,
+  simulations, and analyses into production-ready, data-centric web apps, APIs,
+  and interactive dashboards. The framework has three core components: Genie.jl
+  for backend routing and REST APIs, Stipple.jl for low-code reactive UIs, and
+  SearchLight.jl as the database ORM, plus first-party authentication and
+  authorization plugins and Genie Builder, a VS Code extension with a
+  drag-and-drop UI builder and AI assistant. It is used to build data
+  exploration dashboards, financial data products, ML/AI and simulation apps,
+  bioinformatics tools, and internal tooling. Distributed as MIT-licensed Julia
+  packages via the Julia General registry.
 url: https://raw.githubusercontent.com/api-evangelist/genie/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - speedinvest
-x-tier: stub
+x-tier: enriched
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://avatars.githubusercontent.com/u/50237769?v=4
 tags:
 - Company
+- Web Framework
+- Julia
+- Data Apps
+- Data Science
+- Low-Code
+- Open Source
+- Dashboards
+- Web Development
+- ORM
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: Website
+  url: https://genieframework.com
+- type: DeveloperPortal
+  url: https://learn.genieframework.com
+- type: Documentation
+  url: https://learn.genieframework.com
+- type: APIReference
+  url: https://learn.genieframework.com/framework/genie/
+- type: GettingStarted
+  url: https://learn.genieframework.com/framework/
+- type: Blog
+  url: https://genieframework.com/blog
+- type: Pricing
+  url: https://genieframework.com/pricing
+- type: Support
+  url: https://discord.com/invite/9zyZbD6J7H
+- type: GitHubOrganization
+  url: https://github.com/GenieFramework
+- type: SourceCode
+  url: https://github.com/GenieFramework/Genie.jl
+- type: Packages
+  url: packages/genie-packages.yml
+- type: SDKs
+  url: packages/genie-packages.yml
+- type: ChangeLog
+  url: changelog/genie-changelog.yml
+- type: LLMsTxt
+  url: llms/genie-llms.txt
+- type: DomainSecurity
+  url: security/genie-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

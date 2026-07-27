@@ -1,0 +1,133 @@
+generated: '2026-07-19'
+method: searched
+source: https://github.com/GenieFramework
+registry_note: >-
+  First-party MIT-licensed Julia packages published to the Julia General
+  registry by the Genie Framework organization. Install from the Julia REPL
+  package mode (] add <Name>) or with Pkg.add("<Name>").
+packages:
+- language: julia
+  registry: General
+  name: Genie
+  url: https://juliahub.com/ui/Packages/General/Genie
+  repo: https://github.com/GenieFramework/Genie.jl
+  install: 'julia -e ''using Pkg; Pkg.add("Genie")'''
+  description: The highly productive Julia web framework — backend routing and REST APIs.
+  license: MIT
+  official: true
+- language: julia
+  registry: General
+  name: GenieFramework
+  url: https://juliahub.com/ui/Packages/General/GenieFramework
+  repo: https://github.com/GenieFramework/GenieFramework.jl
+  install: 'julia -e ''using Pkg; Pkg.add("GenieFramework")'''
+  description: Meta package bundling Genie reactive apps (Genie + Stipple + StippleUI).
+  license: MIT
+  official: true
+- language: julia
+  registry: General
+  name: Stipple
+  url: https://juliahub.com/ui/Packages/General/Stipple
+  repo: https://github.com/GenieFramework/Stipple.jl
+  install: 'julia -e ''using Pkg; Pkg.add("Stipple")'''
+  description: Reactive UI library for interactive data applications in pure Julia.
+  license: MIT
+  official: true
+- language: julia
+  registry: General
+  name: StippleUI
+  url: https://juliahub.com/ui/Packages/General/StippleUI
+  repo: https://github.com/GenieFramework/StippleUI.jl
+  install: 'julia -e ''using Pkg; Pkg.add("StippleUI")'''
+  description: Library of reactive UI elements for Stipple.jl.
+  license: MIT
+  official: true
+- language: julia
+  registry: General
+  name: StippleCharts
+  url: https://juliahub.com/ui/Packages/General/StippleCharts
+  repo: https://github.com/GenieFramework/StippleCharts.jl
+  install: 'julia -e ''using Pkg; Pkg.add("StippleCharts")'''
+  description: Library of reactive charts for Stipple.jl.
+  license: MIT
+  official: true
+- language: julia
+  registry: General
+  name: StipplePlotly
+  url: https://juliahub.com/ui/Packages/General/StipplePlotly
+  repo: https://github.com/GenieFramework/StipplePlotly.jl
+  install: 'julia -e ''using Pkg; Pkg.add("StipplePlotly")'''
+  description: Plotly charting integration for Stipple.jl.
+  license: MIT
+  official: true
+- language: julia
+  registry: General
+  name: SearchLight
+  url: https://juliahub.com/ui/Packages/General/SearchLight
+  repo: https://github.com/GenieFramework/SearchLight.jl
+  install: 'julia -e ''using Pkg; Pkg.add("SearchLight")'''
+  description: ORM layer for Genie.jl covering relational databases.
+  license: MIT
+  official: true
+- language: julia
+  registry: General
+  name: SearchLightPostgreSQL
+  url: https://juliahub.com/ui/Packages/General/SearchLightPostgreSQL
+  repo: https://github.com/GenieFramework/SearchLightPostgreSQL.jl
+  install: 'julia -e ''using Pkg; Pkg.add("SearchLightPostgreSQL")'''
+  description: PostgreSQL adapter for SearchLight.
+  license: MIT
+  official: true
+- language: julia
+  registry: General
+  name: GenieAuthentication
+  url: https://juliahub.com/ui/Packages/General/GenieAuthentication
+  repo: https://github.com/GenieFramework/GenieAuthentication.jl
+  install: 'julia -e ''using Pkg; Pkg.add("GenieAuthentication")'''
+  description: Authentication plugin for the Genie framework.
+  license: MIT
+  official: true
+- language: julia
+  registry: General
+  name: GenieAuthorisation
+  url: https://juliahub.com/ui/Packages/General/GenieAuthorisation
+  repo: https://github.com/GenieFramework/GenieAuthorisation.jl
+  install: 'julia -e ''using Pkg; Pkg.add("GenieAuthorisation")'''
+  description: Role-based authorisation (RBA) plugin for Genie.jl.
+  license: MIT
+  official: true
+- language: julia
+  registry: General
+  name: GenieSession
+  url: https://juliahub.com/ui/Packages/General/GenieSession
+  repo: https://github.com/GenieFramework/GenieSession.jl
+  install: 'julia -e ''using Pkg; Pkg.add("GenieSession")'''
+  description: Core package for working with sessions in Genie.
+  license: MIT
+  official: true
+- language: julia
+  registry: General
+  name: GenieAutoreload
+  url: https://juliahub.com/ui/Packages/General/GenieAutoreload
+  repo: https://github.com/GenieFramework/GenieAutoreload.jl
+  install: 'julia -e ''using Pkg; Pkg.add("GenieAutoreload")'''
+  description: Auto-reload plugin for the Genie web framework.
+  license: MIT
+  official: true
+- language: julia
+  registry: General
+  name: GenieStatic
+  url: https://juliahub.com/ui/Packages/General/GenieStatic
+  repo: https://github.com/GenieFramework/GenieStatic.jl
+  install: 'julia -e ''using Pkg; Pkg.add("GenieStatic")'''
+  description: Static website generator for the Genie Framework.
+  license: MIT
+  official: true
+tools:
+- kind: vscode-extension
+  name: Genie Builder
+  repo: https://github.com/GenieFramework/GenieBuilder.jl
+  description: >-
+    VS Code extension providing a drag-and-drop UI builder and AI assistant for
+    building Genie/Stipple reactive apps.
+  official: true

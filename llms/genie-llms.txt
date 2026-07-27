@@ -1,0 +1,28 @@
+# Genie
+
+> Genie is an open source, full-stack web framework for the Julia programming language, built by the Barcelona-based company Genie (backed by Speedinvest). It lets data scientists and R&D engineers turn Julia models, simulations, and analyses into production-ready, data-centric web apps, REST APIs, and interactive dashboards. Core components: Genie.jl (backend + APIs), Stipple.jl (low-code reactive UIs), and SearchLight.jl (database ORM), plus first-party auth plugins and Genie Builder (a VS Code drag-and-drop UI builder with AI assistant). MIT-licensed, distributed via the Julia General registry.
+
+## Docs
+- [Documentation portal](https://learn.genieframework.com): Guides, tutorials, and framework reference.
+- [Framework introduction](https://learn.genieframework.com/framework/): Getting started with Genie, Stipple, and SearchLight.
+- [Genie.jl API reference](https://learn.genieframework.com/framework/genie/): Reference for the Genie web framework.
+- [App gallery](https://learn.genieframework.com/app-gallery/): Example applications built with Genie.
+
+## Products
+- [Website](https://genieframework.com): Product overview and downloads.
+- [Blog](https://genieframework.com/blog): Announcements and technical posts.
+- [Pricing](https://genieframework.com/pricing): Genie Builder plans.
+
+## Source & Packages
+- [GitHub organization](https://github.com/GenieFramework): 80+ open-source Julia repositories.
+- [Genie.jl](https://github.com/GenieFramework/Genie.jl): The highly productive Julia web framework (MIT).
+- [Stipple.jl](https://github.com/GenieFramework/Stipple.jl): Reactive UI library for data apps (MIT).
+- [SearchLight.jl](https://github.com/GenieFramework/SearchLight.jl): ORM layer for Genie.jl (MIT).
+- [Package catalog](https://raw.githubusercontent.com/api-evangelist/genie/refs/heads/main/packages/genie-packages.yml): First-party Julia packages.
+
+## Community
+- [Discord](https://discord.com/invite/9zyZbD6J7H): Community support.
+- [YouTube](https://www.youtube.com/@genieframework/playlists): Tutorials and talks.
+
+## Optional
+- [Changelog](https://raw.githubusercontent.com/api-evangelist/genie/refs/heads/main/changelog/genie-changelog.yml): Recent Genie.jl releases (current v6.0.4).

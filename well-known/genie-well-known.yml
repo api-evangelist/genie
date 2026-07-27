@@ -1,0 +1,33 @@
+generated: '2026-07-19'
+method: searched
+note: >-
+  Probed the well-known discovery surface on both public hosts. No documents
+  were served (genieframework.com returns 404, learn.genieframework.com returns
+  500). Recorded for auditability; no WellKnown/SecurityTxt pointer is emitted
+  because nothing was found. Genie is an open-source framework, not a hosted API
+  provider, so a well-known discovery surface is not expected.
+hosts:
+- host: https://genieframework.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+- host: https://learn.genieframework.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 500
+  - path: /.well-known/openid-configuration
+    status: 500
+  - path: /.well-known/oauth-authorization-server
+    status: 500
+  - path: /.well-known/api-catalog
+    status: 500
+  - path: /.well-known/ai-plugin.json
+    status: 500
