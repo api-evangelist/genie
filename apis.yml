@@ -53,6 +53,17 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: IssueTracker
+  url: https://github.com/GenieFramework/Genie.jl/issues
+- type: Releases
+  url: https://github.com/GenieFramework/Genie.jl/releases
+- type: CodeOfConduct
+  url: https://github.com/GenieFramework/Genie.jl/blob/main/CODE_OF_CONDUCT.md
+- type: ContributionGuide
+  url: https://github.com/GenieFramework/Genie.jl/blob/main/CONTRIBUTING.md
+- type: License
+  name: MIT
+  url: https://github.com/GenieFramework/Genie.jl/blob/main/LICENSE
 - type: Website
   url: https://genieframework.com
 - type: DeveloperPortal
