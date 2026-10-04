@@ -55,7 +55,7 @@ tags:
 - Data Apps
 - Data Science
 - Low-Code
-- Open-Source
+- Open Source
 - Dashboards
 - Web Development
 - ORM
@@ -70,6 +70,7 @@ tags_raw:
 - Dashboards
 - Web Development
 - ORM
+- Open-Source
 apis: []
 maintainers:
 - FN: Kin Lane
